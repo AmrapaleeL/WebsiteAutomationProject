@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32424" started-at="2020-10-07T20:24:14 EDT" finished-at="2020-10-07T20:24:47 EDT">
+  <suite name="Default suite" duration-ms="41064" started-at="2020-10-07T21:58:07 EDT" finished-at="2020-10-07T21:58:48 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32424" started-at="2020-10-07T20:24:14 EDT" finished-at="2020-10-07T20:24:47 EDT">
+    <test name="Default test" duration-ms="41064" started-at="2020-10-07T21:58:07 EDT" finished-at="2020-10-07T21:58:48 EDT">
       <class name="WebsiteSignUp.TC19_SuccessfulSignIn">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:WebsiteSignUp.TC19_SuccessfulSignIn@7494e528]" name="LaunchBrowser" is-config="true" duration-ms="5546" started-at="2020-10-07T20:24:14 EDT" finished-at="2020-10-07T20:24:20 EDT">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:WebsiteSignUp.TC19_SuccessfulSignIn@5a8806ef]" name="LaunchBrowser" is-config="true" duration-ms="7965" started-at="2020-10-07T21:58:07 EDT" finished-at="2020-10-07T21:58:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="TC19()[pri:1, instance:WebsiteSignUp.TC19_SuccessfulSignIn@7494e528]" name="TC19" duration-ms="26084" started-at="2020-10-07T20:24:20 EDT" finished-at="2020-10-07T20:24:46 EDT">
+        <test-method status="FAIL" signature="TC19()[pri:1, instance:WebsiteSignUp.TC19_SuccessfulSignIn@5a8806ef]" name="TC19" duration-ms="31925" started-at="2020-10-07T21:58:15 EDT" finished-at="2020-10-07T21:58:47 EDT">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="root"]/div/div/h1/span (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -52,11 +52,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LNAR-5CG9204ZX7', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\slagade\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e0d7d6ac4ebbccd051f508b9de79929b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\slagade\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ae1851a5932c526f2f3532e577c164a1
 *** Element info: {Using=xpath, value=//*[@id="root"]/div/div/h1/span}
 at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -81,7 +81,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC19 -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebsiteSignUp.TC19_SuccessfulSignIn@7494e528]" name="CloseBrowser" is-config="true" duration-ms="755" started-at="2020-10-07T20:24:46 EDT" finished-at="2020-10-07T20:24:47 EDT">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebsiteSignUp.TC19_SuccessfulSignIn@5a8806ef]" name="CloseBrowser" is-config="true" duration-ms="1107" started-at="2020-10-07T21:58:47 EDT" finished-at="2020-10-07T21:58:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->

@@ -26,7 +26,7 @@ public class TC19_SuccessfulSignIn {
 	public String Terms = "termsAndConditions"; 
 	public String Create = "//*[@id=\"create-account\"]/fieldset/button";
 	public String Text = "//*[@id=\"root\"]/div/div/h1/span";
-	public String email = "abc111@gmail.com";
+	public String email = "abcd111@gmail.com";
 	public String pwd1 = "loblaw@123";
 	
 	
