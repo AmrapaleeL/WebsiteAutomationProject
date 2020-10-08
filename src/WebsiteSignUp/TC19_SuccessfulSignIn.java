@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 public class TC19_SuccessfulSignIn {
 	
 	public String baseUrl = "https://www.loblaws.ca/";
-	public String driverPath = "C:\\Users\\slagade\\Google Drive\\CG backup\\Personal Documents\\Amra\\Selenium\\chromedriver_win32\\chromedriver.exe";
+	public String driverPath = "resources\\chromedriver.exe";
 	public WebDriver driver ; 
 	public String SignIn = "//*[@id=\"site-layout\"]/div[1]/div[3]/div/header/div[2]/div[2]/div/div/div/a";
 	public String CreateAccount ="//*[@id=\"__next\"]/div/div/div/a"; 

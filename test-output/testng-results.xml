@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41064" started-at="2020-10-07T21:58:07 EDT" finished-at="2020-10-07T21:58:48 EDT">
+  <suite name="Default suite" duration-ms="17571" started-at="2020-10-07T22:10:58 EDT" finished-at="2020-10-07T22:11:16 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41064" started-at="2020-10-07T21:58:07 EDT" finished-at="2020-10-07T21:58:48 EDT">
-      <class name="WebsiteSignUp.TC19_SuccessfulSignIn">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:WebsiteSignUp.TC19_SuccessfulSignIn@5a8806ef]" name="LaunchBrowser" is-config="true" duration-ms="7965" started-at="2020-10-07T21:58:07 EDT" finished-at="2020-10-07T21:58:15 EDT">
+    <test name="Default test" duration-ms="17571" started-at="2020-10-07T22:10:58 EDT" finished-at="2020-10-07T22:11:16 EDT">
+      <class name="WebsiteSignUp.TC18_UnsuccessfulSignIn">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:WebsiteSignUp.TC18_UnsuccessfulSignIn@5a8806ef]" name="LaunchBrowser" is-config="true" duration-ms="8526" started-at="2020-10-07T22:10:58 EDT" finished-at="2020-10-07T22:11:07 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="TC19()[pri:1, instance:WebsiteSignUp.TC19_SuccessfulSignIn@5a8806ef]" name="TC19" duration-ms="31925" started-at="2020-10-07T21:58:15 EDT" finished-at="2020-10-07T21:58:47 EDT">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="root"]/div/div/h1/span (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="root"]/div/div/h1/span (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at WebsiteSignUp.TC19_SuccessfulSignIn.TC19(TC19_SuccessfulSignIn.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNAR-5CG9204ZX7', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\slagade\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ae1851a5932c526f2f3532e577c164a1
-*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/h1/span}
-at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 29 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="TC18()[pri:1, instance:WebsiteSignUp.TC18_UnsuccessfulSignIn@5a8806ef]" name="TC18" duration-ms="7495" started-at="2020-10-07T22:11:07 EDT" finished-at="2020-10-07T22:11:14 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC19 -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebsiteSignUp.TC19_SuccessfulSignIn@5a8806ef]" name="CloseBrowser" is-config="true" duration-ms="1107" started-at="2020-10-07T21:58:47 EDT" finished-at="2020-10-07T21:58:48 EDT">
+        </test-method> <!-- TC18 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebsiteSignUp.TC18_UnsuccessfulSignIn@5a8806ef]" name="CloseBrowser" is-config="true" duration-ms="1470" started-at="2020-10-07T22:11:14 EDT" finished-at="2020-10-07T22:11:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- WebsiteSignUp.TC19_SuccessfulSignIn -->
+      </class> <!-- WebsiteSignUp.TC18_UnsuccessfulSignIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
